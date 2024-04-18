@@ -23,7 +23,7 @@ def log_event(event, message):
         f.write(log_entry_json + '\n')
 
 def option():
-    option = input('Input option in console:\n1. speed)\n2. volume\n')
+    option = input('Input option in console:\n1. speed\n2. volume\n')
     try:
         match option:
             case 'speed':
